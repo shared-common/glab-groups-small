@@ -10,7 +10,7 @@ Thin GitHub Actions wrapper for the mixed small-organization mirror set.
 - Uses the shared GitHub App secrets `GH_ORG_SHARED_APP_ID` and
   `GH_ORG_SHARED_APP_PEM` for GitHub-source discovery and clone auth
 - Mirrors the configured GitHub, GitLab, and cgit sources into managed target
-  namespaces beneath `GL_GROUP_TOP_GLAB_OWNER`
+  namespaces beneath `glab-forks`
 - Runs deterministic mirror batch shards with five jobs max in parallel
 - Schedules at minute 5 of hours 2, 8, 14, and 20 UTC
 - Publishes plan, report, CSV, JSON, and Parquet artifacts for each run
