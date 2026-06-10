@@ -17,7 +17,7 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn("config-ref: mcr/main", text)
         self.assertIn("config-path: glab-groups-small", text)
         self.assertIn("target-token-secret: GL_PAT_GROUP_SMALL_SVC", text)
-        self.assertIn('cron: "5 4,16 * * *"', text)
+        self.assertIn('cron: "35 3,7,11,15,19,23 * * *"', text)
         self.assertIn("batch-size: 25", text)
         self.assertIn("emit-parquet: true", text)
 
