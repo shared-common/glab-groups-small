@@ -25,7 +25,6 @@ jobs:
       config-ref: mcr/main
       config-path: glab-groups-small
       target-token-secret: GL_PAT_GROUP_SMALL_SVC
-      batch-size: 25
       emit-parquet: true
       bws-version: ${{ vars.BWS_VERSION }}
       bws-sha256: ${{ vars.BWS_SHA256 }}
